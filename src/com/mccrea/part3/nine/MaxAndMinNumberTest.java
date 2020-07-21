@@ -11,15 +11,15 @@ package com.mccrea.part3.nine;
 public class MaxAndMinNumberTest {
 
 	public static void main(String[] args) {
-		System.out.println("1、Long.MAX_VALUE: " + Long.MAX_VALUE);
-		System.out.println("2、Long.MIN_VALUE: " + Long.MIN_VALUE);
+		System.out.println("1、Double.MAX_VALUE: " + Double.MAX_VALUE);
+		System.out.println("2、Double.MIN_VALUE: " + Double.MIN_VALUE);
 		System.out.println("3、Float.MAX_VALUE: " + Float.MAX_VALUE);
 		System.out.println("4、Float.MIN_VALUE: " + Float.MIN_VALUE);
 	}/* Output:
-	1、Long.MAX_VALUE: 9223372036854775807
-	2、Long.MIN_VALUE: -9223372036854775808
+	1、Double.MAX_VALUE: 1.7976931348623157E308
+	2、Double.MIN_VALUE: 4.9E-324
 	3、Float.MAX_VALUE: 3.4028235E38
-	4、Float.MIN_VALUE: 1.4E-4
+	4、Float.MIN_VALUE: 1.4E-45
 	*///:~
 
 }
